@@ -3,7 +3,7 @@
   "private": true,
   "name": "node_express",
   "description": "node_express",
-  "version": "0.1",
+  "version": "0.0.1",
   "dependencies": {
     "mime":"*",
     "express": "*"
