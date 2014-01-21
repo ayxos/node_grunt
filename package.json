@@ -1,13 +1,14 @@
 {
   "_comment":"you could specify version or, if you dont know, just type *",
   "private": true,
-  "name": "HTML_basic",
-  "description": "HTML5_styl_jade",
-  "version": "0.1.8",
-  "dependencies": {},
-  "devDependencies": {
+  "name": "node_express",
+  "description": "node_express",
+  "version": "0.1",
+  "dependencies": {
     "mime":"*",
-
+    "express": "*"
+    },
+  "devDependencies": {
     "grunt": "*",
     "grunt-contrib-watch": "*",
     "grunt-contrib-jade": "*",
