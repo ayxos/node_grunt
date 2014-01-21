@@ -6,7 +6,8 @@
   "version": "0.0.1",
   "dependencies": {
     "mime":"*",
-    "express": "*"
+    "express": "*",
+    "mongodb":"*"
     },
   "devDependencies": {
     "grunt": "*",

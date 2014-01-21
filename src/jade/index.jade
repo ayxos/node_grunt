@@ -52,6 +52,19 @@ head
               | Imagen de la primera entrada
         footer
           p Comentarios (0)
+
+      form(action='/games', method='post', onsubmit='AJAXSubmit(this); return false;')
+          fieldset
+              legend Registration example
+              p
+                | First name:
+                input(type='text', name='firstname')
+                br
+                | Last name:
+                input(type='text', name='lastname')
+              p
+                input(type='submit', value='Submit')
+
       article
         header
           hgroup
@@ -68,4 +81,6 @@ head
       blockquote Cita del Artículo 2
     footer
       | Copyright © 2013
+
+script(src="js/xmlhttp.js")
 

@@ -40,6 +40,18 @@
         <p>Comentarios (0)</p>
       </footer>
     </article>
+    <form action="/games" method="post" onsubmit="AJAXSubmit(this); return false;">
+      <fieldset>
+        <legend>Registration example</legend>
+        <p>First name:
+          <input type="text" name="firstname"><br>Last name:
+          <input type="text" name="lastname">
+        </p>
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </fieldset>
+    </form>
     <article>
       <header>
         <hgroup>
@@ -59,3 +71,4 @@
   </aside>
   <footer>Copyright © 2013</footer>
 </body>
+<script src="js/xmlhttp.js"></script>
