@@ -5,7 +5,7 @@ var express = require('express'),
 
 var app = express();
 
-var PORT = 8002
+var PORT = 8001
 
 app.configure(function () {
     app.set('port', process.env.PORT || PORT);
