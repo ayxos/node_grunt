@@ -1,0 +1,55 @@
+doctype html
+html(lang='es')
+head
+    meta(charset='utf-8')
+    meta(name='description', content='Éste es un ejemplo de HTML5')
+    meta(name='keywords', content='HTML5, CSS3, JavaScript')
+    title Éste es el título del documento
+    link(rel='stylesheet', href='css/styl.min.css')
+  body
+    //- El elemento header puede incluirse en otras subsecciones
+    header
+      //- No es necesario hgroup, ya que solo hay un elemento h1
+      h1 Título principal de la página
+    //- Nuevo elemento html5 que permite posicionar una barra de navegacion
+    nav
+      ul
+        li Inicio
+        li Imágenes
+        li Vídeos
+        li Contacto
+    //- Para estructurar bien la pagina, esta se divide en secciones
+    section
+      //- Article es un nuevo elemento html5 que permite organizar "entradas" informacion relevante que se actualiza con mas informacion de similar caracteristica
+      article
+        header
+          //- Elemento nuevo de html5 que permite agrupar distintas cabeceras en orden para cada seccion del documento
+          hgroup
+            h1 Título de la primera entrada
+            h2 Subtítulo de la primera entrada
+          p Publicada el 12-01-2013
+        | Texto de la primera entrada
+        figure
+          a.polaroid
+            img(src='http://minkbooks.com/content/myimage.jpg')
+            figcaption
+              | Imagen de la primera entrada
+        footer
+          p Comentarios (0)
+      article
+        header
+          hgroup
+            h1 Título de la segunda entrada
+            h2 Subtítulo de la segunda entrada
+          p Publicada el 15-01-2013
+        | Texto de la segunda entrada
+        footer
+          p Comentarios (0)
+    //- Elemento nuevo de html5 que permite insertar datos relacionados con la informacion principal
+    aside
+      //- blockquote es otro elemento html5 que permite citar parte de un texto de un articulo o seccion previamente existente en el documento
+      blockquote Cita del Artículo 1
+      blockquote Cita del Artículo 2
+    footer
+      | Copyright © 2013
+
