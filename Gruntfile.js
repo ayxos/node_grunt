@@ -39,6 +39,14 @@ module.exports = function(grunt) {
       },
     },
 
+    uglify: {
+      my_target: {
+        files: {
+          'dest/js/my_js.min.js': ['src/js/xmlhttp.js']
+        }
+      }
+    },
+
     clean: ['static'],
 
     jade: {
@@ -122,6 +130,6 @@ module.exports = function(grunt) {
   grunt.registerTask('nodeserver', ['clean', 'jade', 'stylus', 'cssmin', 'shell:node']);
 
   //default task
-  grunt.registerTask('default', ['clean', 'jade', 'stylus', 'cssmin']);
+  grunt.registerTask('default', ['clean', 'jade', 'stylus', 'cssmin','uglify']);
 
 };

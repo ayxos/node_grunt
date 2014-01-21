@@ -12,7 +12,7 @@ oReq.addEventListener("error", transferFailed, false);
 oReq.addEventListener("abort", transferCanceled, false);
 
 function transferComplete(evt) {
-  alert("The transfer is complete.");
+  //-alert("The transfer is complete.");
   console.log(evt);
 }
 
