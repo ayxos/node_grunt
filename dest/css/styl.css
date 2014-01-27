@@ -1,77 +1,77 @@
 
-/* line 44 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 44 : /home/nodeXpress_basic/src/styl/media.styl */
 
-/* line 1 : /home/portzar/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /home/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line undefined : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line undefined : /home/nodeXpress_basic/src/styl/media.styl */
 /* Smartphones (vertical y horizontal) ----------- */
 
-/* line 2 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 2 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
 }
 
-/* line 6 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 6 : /home/nodeXpress_basic/src/styl/media.styl */
 /* Smartphones (horizontal) ----------- */
 
-/* line 7 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 7 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (min-width : 321px) {
 }
 
-/* line 11 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 11 : /home/nodeXpress_basic/src/styl/media.styl */
 /* Smartphones (vertical) ----------- */
 
-/* line 12 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 12 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (max-width : 320px) {
 }
 
-/* line 16 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 16 : /home/nodeXpress_basic/src/styl/media.styl */
 /* iPads (vertical y horizontal) ----------- */
 
-/* line 17 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 17 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 }
 
-/* line 21 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 21 : /home/nodeXpress_basic/src/styl/media.styl */
 /* iPads (horizontal) ----------- */
 
-/* line 22 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 22 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
 }
 
-/* line 26 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 26 : /home/nodeXpress_basic/src/styl/media.styl */
 /* iPads (vertical) ----------- */
 
-/* line 27 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 27 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
 }
 
-/* line 31 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 31 : /home/nodeXpress_basic/src/styl/media.styl */
 /* PCs y portátiles ----------- */
 
-/* line 32 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 32 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (min-width : 1224px) {
 }
 
-/* line 36 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 36 : /home/nodeXpress_basic/src/styl/media.styl */
 /* Pantallas grandes ----------- */
 
-/* line 37 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 37 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (min-width : 1824px) {
 }
 
-/* line 41 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 41 : /home/nodeXpress_basic/src/styl/media.styl */
 /* iPhone 4 ----------- */
 
-/* line 42 : /home/portzar/nodeXpress_basic/src/styl/media.styl */
+/* line 42 : /home/nodeXpress_basic/src/styl/media.styl */
 @media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
 }
 
 
-/* line 3 : /home/portzar/nodeXpress_basic/src/styl/mystyle.styl */
+/* line 3 : /home/nodeXpress_basic/src/styl/mystyle.styl */
 
-/* line 1 : /home/portzar/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /home/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : /home/portzar/nodeXpress_basic/src/styl/mystyle.styl */
+/* line 1 : /home/nodeXpress_basic/src/styl/mystyle.styl */
 input[type="text"]:focus,
 textarea:focus,
 input[type="search"]:focus {
@@ -79,13 +79,13 @@ input[type="search"]:focus {
 }
 
 
-/* line 86 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 86 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 
-/* line 1 : /home/portzar/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /home/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 1 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 
-/* line 2 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 2 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid {
   display: block;
   margin-bottom: 50px;
@@ -106,13 +106,13 @@ a.polaroid {
   -webkit-transition: all 0.5s ease-in;
 }
 
-/* line 21 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 21 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid img {
   width: 200px;
   -webkit-transition: all 0.5s ease-in;
 }
 
-/* line 24 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 24 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a img {
   border: none;
   display: block;
@@ -120,7 +120,7 @@ a img {
   display: block;
 }
 
-/* line 29 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 29 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid2 {
   display: block;
   margin: 0em auto 0 auto;
@@ -141,13 +141,13 @@ a.polaroid2 {
   -webkit-transition: all 0.5s ease-in;
 }
 
-/* line 47 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 47 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid2 img {
   width: 200px;
   -webkit-transition: all 0.5s ease-in;
 }
 
-/* line 56 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 56 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid:hover,
 a.polaroid:focus,
 a.polaroid:active {
@@ -160,7 +160,7 @@ a.polaroid:active {
   transform: rotate(0deg) scale(1.5);
 }
 
-/* line 64 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 64 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid:hover img,
 a.polaroid:focus img,
 a.polaroid:active img {
@@ -169,14 +169,14 @@ a.polaroid:active img {
   transform: rotate(0deg) scale(1);
 }
 
-/* line 68 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 68 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 
-/* line 69 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 69 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 .polaroid img {
   margin: 0 0 15px;
 }
 
-/* line 71 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 71 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid2:hover,
 a.polaroid2:focus,
 a.polaroid2:active {
@@ -189,7 +189,7 @@ a.polaroid2:active {
   transform: rotate(0deg) scale(1.5);
 }
 
-/* line 79 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 79 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 a.polaroid2:hover img,
 a.polaroid2:focus img,
 a.polaroid2:active img {
@@ -198,30 +198,30 @@ a.polaroid2:active img {
   transform: rotate(0deg) scale(1);
 }
 
-/* line 83 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 83 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 
-/* line 84 : /home/portzar/nodeXpress_basic/src/styl/polaroid.styl */
+/* line 84 : /home/nodeXpress_basic/src/styl/polaroid.styl */
 .polaroid2 img {
   margin: 0 0 15px;
 }
 
 
-/* line 8 : /home/portzar/nodeXpress_basic/src/styl/stylesheet.styl */
+/* line 8 : /home/nodeXpress_basic/src/styl/stylesheet.styl */
 
-/* line 1 : /home/portzar/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+/* line 1 : /home/nodeXpress_basic/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
 
-/* line 1 : /home/portzar/nodeXpress_basic/src/styl/stylesheet.styl */
+/* line 1 : /home/nodeXpress_basic/src/styl/stylesheet.styl */
 body {
   background: #fff;
 }
 
-/* line 3 : /home/portzar/nodeXpress_basic/src/styl/stylesheet.styl */
+/* line 3 : /home/nodeXpress_basic/src/styl/stylesheet.styl */
 h1 {
   color: #f00;
   font-weight: 500;
 }
 
-/* line 6 : /home/portzar/nodeXpress_basic/src/styl/stylesheet.styl */
+/* line 6 : /home/nodeXpress_basic/src/styl/stylesheet.styl */
 nav > ul {
   display: inline-block;
 }

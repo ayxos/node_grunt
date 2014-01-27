@@ -92,22 +92,11 @@ var populateDB = function() {
 
     var games = [
     {
-        name: "CHATEAU DE SAINT COSME",
-        year: "2009",
-        grapes: "Grenache / Syrah",
-        country: "France",
-        region: "Southern Rhone",
-        description: "The aromas of fruit and spice...",
-        picture: "saint_cosme.jpg"
-    },
-    {
-        name: "LAN RIOJA CRIANZA",
-        year: "2006",
-        grapes: "Tempranillo",
-        country: "Spain",
-        region: "Rioja",
-        description: "A resurgence of interest in boutique vineyards...",
-        picture: "lan_rioja.jpg"
+        name: "ex_name",
+        year: "ex_year",
+        country: "ex_country",
+	email: "ex_email",
+	pass: "ex_pass"
     }];
 
     db.collection('games', function(err, collection) {
