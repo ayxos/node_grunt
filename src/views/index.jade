@@ -1,13 +1,6 @@
-doctype html
-html(lang='es')
-head
-    meta(charset='utf-8')
-    meta(name='description', content='HTML5_features')
-    meta(name='keywords', content='HTML5, CSS3, JavaScript')
-    title HTML5
-    link(href='http://abser-t.com/imgs/html5.png', rel='shortcut icon', type='image/x-icon')
-    link(rel='stylesheet', href='css/styl.min.css')
-  body
+extends layout
+
+block content
     //- El elemento header puede incluirse en otras subsecciones
     header
       //- No es necesario hgroup, ya que solo hay un elemento h1
@@ -36,7 +29,7 @@ head
           | rojo
         em
           | enfasis
-        strong 
+        strong
           | fuerza
         b
           | negrita
@@ -49,7 +42,6 @@ head
           img(src='http://minkbooks.com/content/myimage.jpg')
           figcaption
             | Imagen de la primera entrada
-        footer
           p Comentarios (0)
 
       article
@@ -59,15 +51,10 @@ head
             h2 Subtítulo de la segunda entrada
           p Publicada el 15-01-2013
         | Texto de la segunda entrada
-        footer
-          p Comentarios (0)
+        p Comentarios (0)
     //- Elemento nuevo de html5 que permite insertar datos relacionados con la informacion principal
     aside
       //- blockquote es otro elemento html5 que permite citar parte de un texto de un articulo o seccion previamente existente en el documento
       blockquote Cita del Artículo 1
       blockquote Cita del Artículo 2
-    footer
-      | Copyright © 2013
-
-script(src="js/my_js.min.js")
 
