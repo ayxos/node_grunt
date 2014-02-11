@@ -1,0 +1,20 @@
+
+/* line 8 : /home/portzar/projects/node_grunt/src/styl/stylesheet.styl */
+
+/* line 1 : /home/portzar/projects/node_grunt/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /home/portzar/projects/node_grunt/src/styl/stylesheet.styl */
+body {
+  background: #fff;
+}
+
+/* line 3 : /home/portzar/projects/node_grunt/src/styl/stylesheet.styl */
+h1 {
+  color: #f00;
+  font-weight: 500;
+}
+
+/* line 6 : /home/portzar/projects/node_grunt/src/styl/stylesheet.styl */
+nav > ul {
+  display: inline-block;
+}

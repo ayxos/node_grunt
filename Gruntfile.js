@@ -9,7 +9,7 @@ module.exports = function(grunt) {
         options: {
           port: 8001,
           hostname: 'localhost',
-          base: 'dest',
+          base: 'public',
           keepalive: true
         }
       }
@@ -42,12 +42,12 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'dest/js/my_js.min.js': ['src/js/xmlhttp.js']
+          'public/js/my_js.min.js': ['src/js/xmlhttp.js']
         }
       }
     },
 
-    clean: ['static'],
+    clean: ['public/*.html'],
 
     jade: {
         compile: {
@@ -56,9 +56,9 @@ module.exports = function(grunt) {
                 pretty: true
             },
             files: [ {
-              cwd: "src/jade",
+              cwd: "src/views",
               src: "**/*.jade",
-              dest: "dest",
+              dest: "public",
               expand: true,
               ext: ".html"
             } ]
@@ -72,7 +72,7 @@ module.exports = function(grunt) {
           compress: false
         },
         files: {
-          'dest/css/styl.css': ['src/styl/*.styl']
+          'public/css/styl.css': ['src/styl/*.styl']
         }
       }
     },
@@ -80,7 +80,7 @@ module.exports = function(grunt) {
     cssmin: {
       build: {
         files: {
-          'dest/css/styl.min.css': [ 'dest/css/styl.css' ]
+          'public/css/styl.min.css': [ 'public/css/styl.css' ]
         }
       }
     },
@@ -92,7 +92,7 @@ module.exports = function(grunt) {
       },
       clean: ['static'],
       jade: {
-        files: ['src/jade/**/*.jade'],
+        files: ['src/views/**/*.jade'],
         tasks: ['jade']
       },
       stylus: {
@@ -130,6 +130,6 @@ module.exports = function(grunt) {
   grunt.registerTask('nodeserver', ['clean', 'jade', 'stylus', 'cssmin', 'shell:node']);
 
   //default task
-  grunt.registerTask('default', ['clean', 'jade', 'stylus', 'cssmin','uglify']);
+  grunt.registerTask('default', ['clean', 'jade', 'stylus', 'cssmin']);
 
 };

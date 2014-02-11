@@ -46,24 +46,11 @@ head
           summary pulsa para agrandar
           p hola hola!
         figure
-          a.polaroid
-            img(src='http://minkbooks.com/content/myimage.jpg')
-            figcaption
-              | Imagen de la primera entrada
+          img(src='http://minkbooks.com/content/myimage.jpg')
+          figcaption
+            | Imagen de la primera entrada
         footer
           p Comentarios (0)
-
-      form(action='/games', method='post', onsubmit='AJAXSubmit(this); return false;')
-          fieldset
-              legend Registration example
-              p
-                | First name:
-                input(type='text', name='firstname')
-                br
-                | Last name:
-                input(type='text', name='lastname')
-              p
-                input(type='submit', value='Submit')
 
       article
         header
