@@ -1,4 +1,4 @@
 node_modules/
 *.*~
-public/*.html
-public/css/*.css
+*.html
+*.css
