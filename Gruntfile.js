@@ -15,30 +15,6 @@ module.exports = function(grunt) {
       }
     },
 
-    shell: {
-      //Create a simple Server using python simplehttpserver command
-      startServer: {
-        options: {
-          stdout: true
-        },
-        command: 'python server/server.py'
-      },
-      //STOP a simple Server using python simplehttpserver command
-      stopServer: {
-        options: {
-          stdout: true
-        },
-        command: 'fuser -k 8002/tcp'
-      },
-      //Create a complex server using node.js
-      node: {
-        options: {
-          stdout: true
-        },
-        command: 'node server/server.js'
-      },
-    },
-
     uglify: {
       my_target: {
         files: {
@@ -56,7 +32,7 @@ module.exports = function(grunt) {
                 pretty: true
             },
             files: [ {
-              cwd: "src/views",
+              cwd: "src",
               src: "**/*.jade",
               dest: "public",
               expand: true,
@@ -72,7 +48,7 @@ module.exports = function(grunt) {
           compress: false
         },
         files: {
-          'public/css/styl.css': ['src/styl/*.styl']
+          'public/css/styl.css': ['src/*.styl']
         }
       }
     },
@@ -92,11 +68,11 @@ module.exports = function(grunt) {
       },
       clean: ['static'],
       jade: {
-        files: ['src/views/**/*.jade'],
+        files: ['src/**/*.jade'],
         tasks: ['jade']
       },
       stylus: {
-        files: ['src/styl/**/*.styl'],
+        files: ['src/**/*.styl'],
         tasks: ['stylus']
       },
     }
@@ -116,18 +92,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   // Remove files
   grunt.loadNpmTasks('grunt-contrib-clean');
-  // executing shell commands
-  grunt.loadNpmTasks('grunt-shell');
   // executing connect server commands
   grunt.loadNpmTasks('grunt-contrib-connect');
-
-
-  //server task to enable/init a python server
-  grunt.registerTask('pyserver', ['shell:startServer']);
-  //server task to disable a python server
-  grunt.registerTask('pystop', ['shell:stopServer']);
-  //server task to enable/init a node server
-  grunt.registerTask('nodeserver', ['clean', 'jade', 'stylus', 'cssmin', 'shell:node']);
 
   //default task
   grunt.registerTask('default', ['clean', 'jade', 'stylus', 'cssmin']);
