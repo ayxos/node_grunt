@@ -1,0 +1,41 @@
+
+/* line 23 : /Users/Marko/projects/node_grunt/src/styl/stylesheet.styl */
+
+/* line 1 : /Users/Marko/projects/node_grunt/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/Marko/projects/node_grunt/src/styl/stylesheet.styl */
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #f8f8ff;
+  margin: 0;
+}
+
+/* line 6 : /Users/Marko/projects/node_grunt/src/styl/stylesheet.styl */
+article {
+  padding: 50px;
+}
+
+/* line 8 : /Users/Marko/projects/node_grunt/src/styl/stylesheet.styl */
+a {
+  color: #00b7ff;
+}
+
+/* line 11 : /Users/Marko/projects/node_grunt/src/styl/stylesheet.styl */
+footer {
+  position: fixed;
+  bottom: 0%;
+  background: #000;
+  color: #fff;
+  width: 98%;
+  padding: 1%;
+}
+
+/* line 19 : /Users/Marko/projects/node_grunt/src/styl/stylesheet.styl */
+#entries {
+  margin-bottom: 4%;
+}
+
+/* line 21 : /Users/Marko/projects/node_grunt/src/styl/stylesheet.styl */
+#entries .entry {
+  margin: 2%;
+}
