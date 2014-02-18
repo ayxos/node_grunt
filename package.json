@@ -1,23 +1,17 @@
 {
-  "_comment":"you could specify version or, if you dont know, just type *",
-  "private": true,
-  "name": "node_express",
-  "description": "node_express",
+  "name": "application-name",
   "version": "0.0.1",
-  "dependencies": {
-    "mime":"*"
-    },
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
   "devDependencies": {
-    "grunt": "*",
-    "grunt-contrib-watch": "*",
-    "grunt-contrib-jade": "*",
-    "grunt-contrib-stylus": "*",
-    "grunt-contrib-uglify":"*",
-    "grunt-contrib-jshint":"*",
-    "grunt-contrib-concat":"*",
-    "grunt-contrib-clean":"*",
-    "grunt-contrib-connect":"*",
-    "grunt-contrib-cssmin":"*",
-    "grunt-shell":"*"
+    "nodemon" : "*",
+    "pm2" : "*"
+    },
+  "dependencies": {
+    "express": "3.4.8",
+    "jade": "*",
+    "stylus": "*"
   }
 }
