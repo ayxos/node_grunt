@@ -1,6 +1,8 @@
 nodeXpress_basic
 ================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ayxos/node_grunt.svg)](https://greenkeeper.io/)
+
 A basic xpress node web app with grunt (Stylus/Jade) and mongodb
 
 run
